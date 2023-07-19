@@ -38,6 +38,11 @@
               "src": "src/images/logo.png",
               "sizes": "96x96",
               "type": "image/png"
+            },
+            {
+                "src": "src/images/logo.png",
+                "sizes": "16x16",
+                "type": "image/png"
             }
           ]
 }

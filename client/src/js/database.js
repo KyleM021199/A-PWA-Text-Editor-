@@ -37,7 +37,7 @@ console.log('Data gotten from the database', result.value)
 } else{
   console.log('Data was not found');
 }
-return result?.value;
+return result.value;
 }; //console.error('getDb not implemented');
 
 initdb();

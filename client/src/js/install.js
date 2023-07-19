@@ -16,4 +16,6 @@ butInstall.textContent = 'Installed';
 // TODO: Add an handler for the `appinstalled` event
 window.addEventListener('appinstalled', (event) => {
 console.log('Success!', 'appinstalled', event);
+butInstall.setAttribute('disabled',false);
+butInstall.textContent = 'Install!';
 });
