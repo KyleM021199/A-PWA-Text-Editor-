@@ -1,3 +1,5 @@
+# build folder
+dist
 # Logs
 logs
 *.log
